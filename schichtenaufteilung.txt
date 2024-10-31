@@ -1,0 +1,27 @@
+Schichtenaufteilung:
+
+Meine Api umfasst die Module contract und observerApi.
+Diese agieren als Schnittstelle für die restlichen Module, da hier alle wesentlichen Interfaces definiert sind.
+Außerdem gehört das Modul eventApi mit zur Api. Dieses liegt allerdings bereits darüber, da es auf dem contract aufbaut.
+
+Domain Logic Schicht:
+In nächsten Schicht befindet sich meine Geschaeftslogik im Modul domainLogic.
+Hier habe ich ebenfalls ein wichtiges Interface, das CargoDoItAll, dieses ist jedoch nur für den internen Gebrauch.
+Heraus gebe ich das Interface CargoStorable aus der Api, das die Setter-Methoden setLastInspectionDate & setStorageLocation nicht umfasst.
+
+Das logSystem ist unabhängig von der Domain Logic und für die Zusatzanforderung zuständig.
+Hier ist die Methode zum Schreiben in der Log-Datei definiert, es wird gespeichert, welche Sprache gewählt wurde und in welche Datei geschrieben werden soll.
+Außerdem sind hier die Beschreibungen, die gespeichert werden, als Arrays hinterlegt und können so leicht erweitert werden.
+
+Das serialization Modul baut auf der domainLogic auf, da es für das Serialisieren und Deserialisieren des Models zuständig ist.
+
+User Interface Schicht:
+Auf der Schicht darüber befinden sich einerseits das client Modul mit den spezifischen CLI-Listener-Implementierungen.
+Andererseits liegt hier auch das observerSystem mit den konkreten Observer-Implementierungen, die auf verschiedenen Modulen (wie z.B. der logLogic) aufbauen.
+Auf derselben Ebene befindet sich außerdem das Modul console, das Herzstück der CLI-Anwendung, das für Userinput und -output zuständig ist.
+
+Die Module guiView und simulation bauen darauf auf, da sie sich mancher CLI-Listener bedienen.
+Ebenso das server Modul, das zumindest einen Listener aus der console benötigt (den PrintChoiceListener):
+
+
+

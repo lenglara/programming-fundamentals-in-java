@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="433.0" prefWidth="633.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MakeView">
+   <VBox prefHeight="406.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+         <ToolBar prefHeight="40.0" prefWidth="200.0">
+           <items>
+                  <Button onAction="#addButtonClick" prefHeight="26.0" prefWidth="78.0" text="Add">
+                  <font>
+                     <Font name="JetBrains Mono ExtraLight" size="14.0" />
+                  </font></Button>
+                  <Button onAction="#inspectButtonClick" prefHeight="26.0" prefWidth="78.0" text="Inspect">
+                  <font>
+                     <Font name="JetBrains Mono ExtraLight" size="14.0" />
+                  </font></Button>
+                  <Button onAction="#deleteButtonClick" prefHeight="26.0" prefWidth="78.0" text="Delete">
+                  <font>
+                     <Font name="JetBrains Mono ExtraLight" size="14.0" />
+                  </font></Button>
+                  <Button onAction="#clearButtonClick" prefHeight="26.0" prefWidth="78.0" text="Clear">
+                  <font>
+                     <Font name="JetBrains Mono ExtraLight" size="14.0" />
+                  </font></Button>
+           </items>
+         </ToolBar>
+            <TextField fx:id="textField" prefHeight="28.0" prefWidth="482.0" />
+         <TableView fx:id="table" prefHeight="706.0" prefWidth="633.0" VBox.vgrow="ALWAYS">
+           <columns>
+               <TableColumn fx:id="typeColumn" prefWidth="107.0" sortType="DESCENDING" text="Type" />
+               <TableColumn fx:id="locationColumn" prefWidth="107.0" text="Location" />
+               <TableColumn fx:id="customerColumn" prefWidth="107.0" text="Customer" />
+               <TableColumn fx:id="valueColumn" prefWidth="107.0" text="Value" />
+               <TableColumn fx:id="inspectionColumn" prefWidth="107.0" text="Inspection" />
+               <TableColumn fx:id="durationColumn" prefWidth="107.0" text="Duration" />
+               <TableColumn fx:id="fragileColumn" prefWidth="107.0" text="Fragile" />
+               <TableColumn fx:id="pressurizedColumn" prefWidth="107.0" text="Pressurized" />
+               <TableColumn fx:id="grainSizeColumn" prefWidth="107.0" text="Grain Size" />
+               <TableColumn fx:id="hazardousColumn" prefWidth="107.0" text="Hazardous" />
+           </columns>
+         </TableView>
+            <ListView fx:id="listview" disable="true" prefHeight="333.0" prefWidth="600.0" />
+      </children>
+      <cursor>
+         <Cursor fx:constant="S_RESIZE" />
+      </cursor>
+   </VBox>
+</AnchorPane>

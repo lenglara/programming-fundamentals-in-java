@@ -1,0 +1,69 @@
+Es wird versucht, einen Kunden hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, einen Kunden hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, einen Kunden hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, einen Kunden hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, den Zustand der Geschäftslogik zu speichern.
+Es wird versucht, einen alten Zustand der Geschäftslogik zu laden.
+Es wird versucht, einen Kunden hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Es wird versucht, einen Kunden hinzuzufügen.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+An attempt is being made to add a customer.
+Change in business logic.
+An attempt is being made to add a cargo object.
+Änderung in der Geschäftslogik.
+Es wird versucht, einen Kunden hinzuzufügen.
+Änderung in der Geschäftslogik.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Änderung in der Geschäftslogik.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Änderung in der Geschäftslogik.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Änderung in der Geschäftslogik.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Änderung in der Geschäftslogik.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Änderung in der Geschäftslogik.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Änderung in der Geschäftslogik.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Änderung in der Geschäftslogik.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Änderung in der Geschäftslogik.
+Änderung in der Geschäftslogik.
+Änderung in der Geschäftslogik.
+Änderung in der Geschäftslogik.
+Änderung in der Geschäftslogik.
+Es wird versucht, einen Kunden hinzuzufügen.
+Änderung in der Geschäftslogik.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Änderung in der Geschäftslogik.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Änderung in der Geschäftslogik.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Änderung in der Geschäftslogik.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Änderung in der Geschäftslogik.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Änderung in der Geschäftslogik.
+Es wird versucht, ein Cargo Objekt hinzuzufügen.
+Änderung in der Geschäftslogik.
+Änderung in der Geschäftslogik.
+Änderung in der Geschäftslogik.
+Änderung in der Geschäftslogik.

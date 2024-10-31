@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="433.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MakeView">
+   <VBox prefHeight="433.0" prefWidth="680.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+         <ToolBar prefHeight="40.0" prefWidth="200.0">
+           <items>
+                  <Button onAction="#addButtonClick" prefHeight="26.0" prefWidth="78.0" text="Add">
+                  <font>
+                     <Font name="JetBrains Mono ExtraLight" size="14.0" />
+                  </font></Button>
+                  <Button onAction="#inspectButtonClick" prefHeight="26.0" prefWidth="78.0" text="Inspect">
+                  <font>
+                     <Font name="JetBrains Mono ExtraLight" size="14.0" />
+                  </font></Button>
+                  <Button onAction="#deleteButtonClick" prefHeight="26.0" prefWidth="78.0" text="Delete">
+                  <font>
+                     <Font name="JetBrains Mono ExtraLight" size="14.0" />
+                  </font></Button>
+               <Button onAction="#saveButtonClick" prefHeight="26.0" prefWidth="78.0" text="Save">
+                  <font>
+                     <Font name="JetBrains Mono ExtraLight" size="14.0" />
+                  </font>
+               </Button>
+               <Button onAction="#loadButtonClick" prefHeight="26.0" prefWidth="78.0" text="Load">
+                  <font>
+                     <Font name="JetBrains Mono ExtraLight" size="14.0" />
+                  </font>
+               </Button>
+               <SplitMenuButton mnemonicParsing="false" text="Filter">
+                 <items>
+                   <MenuItem mnemonicParsing="false" onAction="#dryBulkCargoButtonClick" text="DryBulkCargo" />
+                   <MenuItem mnemonicParsing="false" onAction="#liquidBulkCargoButtonClick" text="LiquidBulkCargo" />
+                     <MenuItem mnemonicParsing="false" onAction="#unitisedCargoButtonClick" text="UnitisedCargo" />
+                     <MenuItem mnemonicParsing="false" onAction="#liquidBulkAndUnitisedCargoButtonClick" text="LiquidBulkAndUnitisedCargo" />
+                     <MenuItem mnemonicParsing="false" onAction="#liquidAndDryBulkCargoButtonClick" text="LiquidAndDryBulkCargo" />
+                     <MenuItem mnemonicParsing="false" onAction="#dryBulkAndUnitisedCargoButtonClick" text="DryBulkAndUnitisedCargo" />
+                 </items>
+                  <font>
+                     <Font name="JetBrains Mono ExtraLight" size="14.0" />
+                  </font>
+               </SplitMenuButton>
+           </items>
+         </ToolBar>
+         <ToolBar prefHeight="40.0" prefWidth="200.0">
+           <items>
+                  <TextField fx:id="textField" prefHeight="26.0" prefWidth="588.0" />
+                  <Button onAction="#clearButtonClick" prefHeight="26.0" prefWidth="78.0" text="Clear">
+                  <font>
+                     <Font name="JetBrains Mono ExtraLight" size="14.0" />
+                  </font>
+               </Button>
+           </items>
+         </ToolBar>
+         <TableView fx:id="cargoTable" prefHeight="281.0" prefWidth="633.0" VBox.vgrow="ALWAYS">
+           <columns>
+               <TableColumn fx:id="typeColumn" prefWidth="107.0" sortType="DESCENDING" text="Type" />
+               <TableColumn fx:id="locationColumn" prefWidth="107.0" text="Location" />
+               <TableColumn fx:id="customerColumn" prefWidth="107.0" text="Customer" />
+               <TableColumn fx:id="valueColumn" prefWidth="107.0" text="Value" />
+               <TableColumn fx:id="inspectionColumn" prefWidth="107.0" text="Inspection" />
+               <TableColumn fx:id="durationColumn" prefWidth="107.0" text="Duration" />
+               <TableColumn fx:id="hazardousColumn" prefWidth="107.0" text="Hazardous" />
+           </columns>
+         </TableView>
+         <TableView fx:id="customerTable" prefHeight="200.0" prefWidth="633.0" VBox.vgrow="ALWAYS">
+           <columns>
+             <TableColumn fx:id="nameColumn" prefWidth="150.0" text="Customer name" />
+             <TableColumn fx:id="numberColumn" prefWidth="150.0" text="Number of cargo items" />
+           </columns>
+         </TableView>
+         <ToolBar prefHeight="40.0" prefWidth="200.0">
+           <items>
+               <RadioButton fx:id="flammable" mnemonicParsing="false" text="flammable" />
+               <RadioButton fx:id="explosive" mnemonicParsing="false" text="explosive" />
+               <RadioButton fx:id="toxic" mnemonicParsing="false" text="toxic" />
+               <RadioButton fx:id="radioactive" mnemonicParsing="false" text="radioactive" />
+           </items>
+         </ToolBar>
+      </children>
+      <cursor>
+         <Cursor fx:constant="S_RESIZE" />
+      </cursor>
+   </VBox>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/belegProg3.iml" filepath="$PROJECT_DIR$/belegProg3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/console/console.iml" filepath="$PROJECT_DIR$/console/console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contract/contract.iml" filepath="$PROJECT_DIR$/contract/contract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domainLogic/domainLogic.iml" filepath="$PROJECT_DIR$/domainLogic/domainLogic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eventApi/eventApi.iml" filepath="$PROJECT_DIR$/eventApi/eventApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guiView/guiView.iml" filepath="$PROJECT_DIR$/guiView/guiView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logSystem/logSystem.iml" filepath="$PROJECT_DIR$/logSystem/logSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/observerApi/observerApi.iml" filepath="$PROJECT_DIR$/observerApi/observerApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/observerSystem/observerSystem.iml" filepath="$PROJECT_DIR$/observerSystem/observerSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialization/serialization.iml" filepath="$PROJECT_DIR$/serialization/serialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simulation/simulation.iml" filepath="$PROJECT_DIR$/simulation/simulation.iml" />
+    </modules>
+  </component>
+</project>

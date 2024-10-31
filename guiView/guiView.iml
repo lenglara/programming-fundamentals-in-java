@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="domainLogic" />
+    <orderEntry type="module" module-name="eventApi" />
+    <orderEntry type="module" module-name="contract" />
+    <orderEntry type="module" module-name="console" />
+    <orderEntry type="module" module-name="serialization" />
+    <orderEntry type="module" module-name="logSystem" />
+    <orderEntry type="module" module-name="observerSystem" />
+    <orderEntry type="module" module-name="observerApi" />
+  </component>
+</module>
